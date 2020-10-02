@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::SES::SimpleEmailResource",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.ses.simpleemailresource.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.ses.simpleemailresource.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "ses",
+            "simpleemailresource"
+        ],
+        "codegen_template_path": "guided_aws"
+    }
+}
